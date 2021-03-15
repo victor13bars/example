@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Nab.module.css';
+import style from './Nab.module.scss';
 
 function Nav() {
     return (

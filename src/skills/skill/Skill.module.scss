@@ -1,0 +1,43 @@
+@import "../../common/styles/sass/variables";
+
+.skill {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+
+  .icon {
+    background-color: $primaryColor;
+    height: 80px;
+    width: 80px;
+    margin: 0px auto 30px;
+  }
+
+  & h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: $textColor;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    padding: 0;
+    letter-spacing: 1px;
+  }
+
+  .description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: center;
+    color: $textColor;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,58 @@
+@import "../common/styles/sass/variables";
+
+.footerBlock {
+  height: 200px;
+  background-color: $bgColor;
+  padding: 40px 0px;
+
+  .footerContainer {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .title {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 22px;
+      line-height: 1.2;
+      font-weight: 700;
+      color: $textColor;
+      letter-spacing: 3px;
+      //margin-bottom: 20px;
+    }
+
+    .footer {
+      border: 1px solid;
+      width: 280px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+
+      .network {
+        text-align: center;
+        line-height: 50px;
+        font-size: 40px;
+        height: 50px;
+        width: 50px;
+        color: white;
+      }
+    }
+
+    span {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.8;
+      color: $textColor;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
