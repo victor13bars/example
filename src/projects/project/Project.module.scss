@@ -5,7 +5,6 @@
   width: 450px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: $bgSecondColor;
 
   .imgContainer {
@@ -29,14 +28,6 @@
       opacity: 0.4;
     }
 
-    .button {
-      position: relative;
-      text-decoration: none;
-      background-color: whitesmoke;
-      padding: 10px 20px;
-      z-index: 1;
-      color: dodgerblue;
-    }
   }
 
   .projectInfo {
@@ -46,19 +37,20 @@
       //font-family: 'Josefin Sans', sans-serif;
       //font-size: 16px;
       //line-height: 1.2;
-      //color: $textColor;
-      @include text(('Josefin Sans', sans-serif),16px,1.2);
+      color: $textColor;
+      @include text(('Josefin Sans', sans-serif), 16px, 1.2, 700);
       letter-spacing: 1px;
       margin: 0 0 5px;
+      text-transform: uppercase;
     }
 
     .description {
       //font-family: 'Poppins', sans-serif;
       //font-size: 12px;
       //line-height: 1.8;
-      //color: $textColor;
-      @include  text(('Poppins', sans-serif),12px,1.8);
-      font-weight: 400;
+      color: $textColor;
+      @include text(('Poppins', sans-serif), 12px, 1.8, 400);
+      //font-weight: 400;
     }
   }
 }

@@ -1,5 +1,5 @@
 @import "../common/styles/sass/variables";
-
+@import "../common/styles/sass/mixins";
 .skillsBlock {
   background-color: $bgSecondColor;
   padding: 40px 0px;
@@ -10,6 +10,7 @@
     flex-direction: column;
 
     .skills {
+      margin-top: 20px;
       width: 100%;
       display: flex;
       justify-content: space-between;

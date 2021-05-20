@@ -3,33 +3,26 @@ import style from './Skills.module.scss';
 import styleContainer from "../common/styles/Container.module.css";
 import Skill from "./skill/Skill";
 import Title from "../common/components/title/Title";
-import htmlIcon from "./../assets/icon/files.svg"
-import jsIcon from "./../assets/icon/js.svg"
-import reactIcon from "./../assets/icon/atom.svg"
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faHtml5, faJs, faReact} from '@fortawesome/free-brands-svg-icons'
+import {faFileCode} from '@fortawesome/free-solid-svg-icons'
+import Fade from "react-reveal";
 
-function Skills() {
-    const html = {
-        backgroundImage: 'url(' + htmlIcon + ')',
-    };
-    const js = {
-        backgroundImage: 'url(' + jsIcon + ')',
-    };
-    const reactIc = {
-        backgroundImage: 'url(' + reactIcon + ')',
-    };
+const Skills = () => {
+
     return (
-        <div className={style.skillsBlock}>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Title text={"Skills"}/>
-                <div className={style.skills}>
-                    <Skill style={js} title={"JS"} description={"lorem lorem ffffff dddddddddd vvvvvvvv"} />
-                    <Skill style={html} title={"HTML"} description={"lorem lorem ffffff dddddddddd vvvvvvvv"}/>
-                    <Skill style={reactIc} title={"REACT"} description={"lorem lorem ffffff dddddddddd vvvvvvvv"}/>
-                    <Skill style={js} title={"JS"} description={"lorem lorem ffffff dddddddddd vvvvvvvv"}/>
-                    <Skill style={html} title={"HTML"} description={"lorem lorem ffffff dddddddddd vvvvvvvv"}/>
-                    <Skill style={reactIc} title={"REACT"} description={"lorem lorem ffffff dddddddddd vvvvvvvv"}/>
+        <div id="skills" className={style.skillsBlock}>
+            <Fade bottom>
+                <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+                    <Title text={"Skills"}/>
+                    <div className={style.skills}>
+                        <Skill icon={<FontAwesomeIcon icon={faJs} rotation={-90} />} title={"JS, TS"}/>
+                        <Skill icon={<FontAwesomeIcon icon={faReact} />}
+                               title={"React, Redux"}/>
+                        <Skill icon={<FontAwesomeIcon icon={faFileCode}  />} title={"HTML & CSS"}/>
+                    </div>
                 </div>
-            </div>
+            </Fade>
         </div>
     );
 }
