@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/example/static/css/main.77ba2dd0.chunk.css",
+    "main.css": "/example/static/css/main.9d3d2052.chunk.css",
     "main.js": "/example/static/js/main.8f35361b.chunk.js",
     "main.js.map": "/example/static/js/main.8f35361b.chunk.js.map",
     "runtime-main.js": "/example/static/js/runtime-main.ae53a220.js",
@@ -10,16 +10,17 @@
     "static/js/3.19167965.chunk.js": "/example/static/js/3.19167965.chunk.js",
     "static/js/3.19167965.chunk.js.map": "/example/static/js/3.19167965.chunk.js.map",
     "index.html": "/example/index.html",
-    "static/css/main.77ba2dd0.chunk.css.map": "/example/static/css/main.77ba2dd0.chunk.css.map",
+    "static/css/main.9d3d2052.chunk.css.map": "/example/static/css/main.9d3d2052.chunk.css.map",
     "static/js/2.35a2a144.chunk.js.LICENSE.txt": "/example/static/js/2.35a2a144.chunk.js.LICENSE.txt",
-    "static/media/Main.module.scss": "/example/static/media/Дикпр.09ab0051.jpg",
+    "static/media/Main.module.scss": "/example/static/media/37.41eadc0c.jpg",
+    "static/media/Дикпр.09ab0051.jpg": "/example/static/media/Дикпр.09ab0051.jpg",
     "static/media/Кот.ccd00d5d.jpg": "/example/static/media/Кот.ccd00d5d.jpg",
     "static/media/Кот2.d347e1fc.jpg": "/example/static/media/Кот2.d347e1fc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ae53a220.js",
     "static/js/2.35a2a144.chunk.js",
-    "static/css/main.77ba2dd0.chunk.css",
+    "static/css/main.9d3d2052.chunk.css",
     "static/js/main.8f35361b.chunk.js"
   ]
 }
