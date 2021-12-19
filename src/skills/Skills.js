@@ -20,6 +20,9 @@ const Skills = () => {
                         <Skill icon={<FontAwesomeIcon icon={faReact} />}
                                title={"React, Redux"}/>
                         <Skill icon={<FontAwesomeIcon icon={faFileCode}  />} title={"HTML & CSS"}/>
+                        <Skill icon={<FontAwesomeIcon icon={faFileCode}  />} title={"HTML & CSS"}/>
+                        <Skill icon={<FontAwesomeIcon icon={faFileCode}  />} title={"HTML & CSS"}/>
+                        <Skill icon={<FontAwesomeIcon icon={faFileCode}  />} title={"HTML & CSS"}/>
                     </div>
                 </div>
             </Fade>
